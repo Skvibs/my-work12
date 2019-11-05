@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8"/>
+    <title>Sing in form</title>
+    
+    
+    
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:400,700&amp;display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="css/main.css"/>
+    
+  </head>
+  <body>
+    <div class="form">
+      <div class="form__shadow"></div>
+      <div class="form__header"><a href="#" class="form__header__link form__header__link--active">Sign in</a><a href="#" class="form__header__link">Join us</a></div>
+      <form action="#" method="post">
+        <label for="name" class="form__label">Username</label>
+        <input type="text" name="name" id="name" required="required" class="form__input"/>
+        <label for="pass" class="form__label">Password</label>
+        <input type="password" name="password" id="pass" required="required" class="form__input"/>
+        <label class="form__label-check">Keep me signed in
+          <input type="checkbox" class="form__checkbox"/><span class="form__label-check-mark"></span>
+        </label>
+        <input type="submit" name="submit" value="Sing in" class="form__input form__submit"/>
+      </form>
+      <div class="form__footer"><a href="#" class="form__footer__link">Forgot password</a><a href="#" class="form__footer__link">Create an account</a></div>
+    </div>
+    
+    
+    
+  </body>
+</html>
